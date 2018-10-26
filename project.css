@@ -1,0 +1,213 @@
+body{
+  background-color: white;
+    width: 100%;
+    height: 100%
+}
+
+.container{
+display: grid;
+  grid-gap: 10px;
+    background-color: darkslategrey;
+    width: 100%;
+    height: 60px;
+}
+
+
+h3{
+    display: inline;
+    margin-left: auto;
+    position: absolute;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+ul li {
+    display: inline;
+    padding: 20px;
+    float: right;
+    color: white;
+    font-size: 15px;
+      
+}
+.img{
+    width: 100%;
+    background: url(html.jpg);
+    background-size: cover;
+    height: 500px;
+ 
+   
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.handp {
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 10px;
+    color: white;
+}
+.handp button {
+ background-color: darkslategray;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+}
+.third {
+    width: 100%;
+    height: 200px;
+  margin-top: 30px;
+}
+.third .one {
+    width: 25%;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+}
+.third .two {
+    width: 25%;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+}
+.third .three {
+    width: 25%;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+}
+.third .four {
+    width: 25%;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+}
+.fourth {
+    display: inline-block;
+    background-color: darkslategrey;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.fourth img {
+    width: 50%;
+    float: left;
+}
+.fourth .heroes {
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    float: left;
+}
+.fourth .heroes p {
+    font-size: 20px;
+}
+
+.portofolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+text-align: center;}
+
+.portofolio h2{text-transform: uppercase;
+color: #555}
+
+
+.portofolio img {
+    width: 80%;
+    height: 50%;
+}
+
+/*start contact*/
+.contact {
+    background-color: #252f31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.contact .info {  width:50%;
+    margin-left: 5%;
+    float: left;}
+    
+.contact h2 {color: #e6e0e0;margin-left:40px;} 
+    
+
+.contact p {color:#e6e0e0;margin-left: 40px; line-height: 1.5}
+
+
+.contact .form {
+    
+    width:45%;
+    float: left;
+}
+
+.contact .info {
+    text-align: center;
+}
+
+.contact .info h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.contact .info STRONG{color:#e6e0e0; 
+text-align: center;
+font-size: 20px}
+
+
+
+.contact .form label {display: block; color:#D1D6DA;margin-bottom: 6px;text-align: left;padding-left: 50px;}
+
+.contact .form input  {
+    
+    background-color: #4B5557;
+    padding: 5px;
+    color: #fff;
+    border: 0px;
+    width: 70%;
+    margin-bottom: 10px;
+    
+} 
+    .contact .form textarea  {
+    
+    background-color: #4B5557;
+    padding: 5px;
+    color: #fff;
+    border: 0px;
+    width: 70%;
+    margin-bottom: 10px;
+    height: 200px;
+    
+} 
+.contact .form input[type="submit"]{ width: 40%; background-color: black;color: white;}
+
+/*end contact*/
+/*START FOOTER*/
+.footer {
+    background-color: #191E22;
+    color: azure;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+    
+ /*end portofolio*/
+
+
+
+
+
+
+
+
